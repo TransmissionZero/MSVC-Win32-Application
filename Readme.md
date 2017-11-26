@@ -27,8 +27,10 @@ designed Win32 applications. It is a straight port of the
 - Unicode support.
 - Target either 32 bit or 64 bit versions of Windows, without any source code changes.
 
-To build the application, open the solution file in Visual Studio, select the configuration and platform from the
-drop-down menu, and use "Build Solution" from the "Build" menu.
+
+To build the application, open the solution file in Visual Studio, right click the solution in the Solution Explorer and
+select "Retarget solution". Choose which version of the Windows SDK you'd like to use to build the solution. Next,
+select the configuration and platform from the drop-down menu, and use "Build Solution" from the "Build" menu.
 
 The solution was created in Visual Studio 2017, but it should open in any version of Visual Studio from 2010 SP1
 onwards.
